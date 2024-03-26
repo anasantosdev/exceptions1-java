@@ -3,7 +3,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
-import model.entities.Reservation;
+import entities.Reservation;
 public class Program {
     public static void main(String[] args) throws ParseException {
         Scanner sc = new Scanner(System.in);
@@ -45,3 +45,6 @@ public class Program {
                     System.out.println("Reservation: " + reservation);
                 }
             }
+            sc.close();
+        }
+    }}
